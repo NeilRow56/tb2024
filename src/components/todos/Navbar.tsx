@@ -1,6 +1,6 @@
 import { Todo } from '@prisma/client'
 import TodoTitleForm from './TodoTitleForm'
-import TodoOptions from './Options'
+import { TodoOptions } from './Options'
 
 interface NavbarProps {
   data: Todo
